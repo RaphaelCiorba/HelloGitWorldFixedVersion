@@ -8,9 +8,12 @@ public class Main {
 
         System.out.println("****************Sum of two numbers*****************");
         System.out.println("Enter First Number: ");
+        nummer1 = sc.nextInt();
 
         System.out.println("Enter Second Number");
+        nummer2 = sc.nextInt();
 
+        summe = nummer1 + nummer2;
         System.out.println("The sum of these numbers: " +summe);
 
     }
